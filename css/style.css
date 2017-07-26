@@ -790,7 +790,7 @@ footer, .cta-section {
     transition: all 0.25s ease; }
   .card img {
     margin: 0 auto;
-    max-widht: 100%; }
+    max-width: 100%; }
   .card .overlay-button {
     opacity: 0;
     color: white;
@@ -860,8 +860,16 @@ footer, .cta-section {
 
     .ctc_form{
       width: 40%;
-      margin-left: 60px;
+      margin-left: 60px;}
+      @media only screen and (max-width: 480px) {
+    table {
+        width:95%;
     }
+    input[type=text], textarea {
+        width:75%;
+    }
+}
+
 
     .btn{
       margin-bottom: 3px;
@@ -872,6 +880,8 @@ footer, .cta-section {
       margin-top: -600px;
       margin-right: 200px;
     }
+
+    
     
 
 /*# sourceMappingURL=app.css.map */
