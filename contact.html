@@ -1,109 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Dr. Joe Abah</title>
-  <link href="bootstrap/bootstrap.css" rel='stylesheet' type='text/css' />
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Font Awesome -->
-<link href="css/font-awesome.css" rel="stylesheet">
+    <title>Dr. Joe Abah</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-  <header>
-  <div class="outer-container">
-   <nav>
-      <a class="site-logo transition-link" href="index.html">
-      <img src="logo.png" style="width:50px; height:50px; display: inline">
-      </a>
-      <ul class="nav-right">
-        <li class="list-item"><a class="transition-link" href="index.html">Home</a></li>
-        <li class="list-item"><a class="transition-link" href="blog.html">Blog</a></li>
-        <li class="list-item" id="social-click"><a  href="gallery.html">Gallery</a></li>
-       <li class="list-item"><a class="transition-link" href="contact.html">Contact</a></li>
-      </ul>
-      <div class="mobile-nav">
-        <a id="navigation-target" class="navigation-target"></a>
-        <span class="navigation-toggle">
-          <span class="navigation-toggle-icon"></span>
-          <span class="navigation-toggle-label">Menu</span>
-        </span> 
+    <header>
+      <div class="outer-container">
+         <nav>
+            <a class="site-logo transition-link" href="index.html">
+                <img src="logo.png" style="width:50px; height:50px; display: inline">
+            </a>
+            <ul class="nav-right">
+                <li class="list-item"><a class="transition-link" href="index.html">Home</a></li>
+                <li class="list-item"><a class="transition-link" href="blog.html">Blog</a></li>
+                <li class="list-item" id="social-click"><a  href="gallery.html">Gallery</a></li>
+                <li class="list-item"><a class="transition-link" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-nav">
+                <a id="navigation-target" class="navigation-target"></a>
+                <span class="navigation-toggle">
+                  <span class="navigation-toggle-icon"></span>
+                  <span class="navigation-toggle-label">Menu</span>
+                </span> 
+            </div>
+         </nav>
+        <div class="dropdown-menu">
+              <ul class="mobile-menu no-bullet">
+                  <li><a class="transition-link" href="/project-list.html">Projects</a></li>
+                  <li><a class="transition-link" href="/blog.html">Blog</a></li>
+                  <li><a  href="https://medium.com/@benadam11" target ="_blank"><i class="fa fa-medium"></i> - Medium</a></li>
+                  <li><a  href="https://twitter.com/benadam11" target ="_blank"><i class="fa fa-twitter"></i> - Twitter </a></li>
+                  <li><a  href="https://dribbble.com/benadam11" target ="_blank"><i class="fa fa-dribbble"></i> - Dribbble </a></li>
+                  <li><a  href="https://github.com/benadam11" target ="_blank"> <i class="fa fa-github"></i> - Github</a></li>
+              </ul>
+        </div>
       </div>
+    </header>
+    <!-- End Header -->
+    <main>
+        <h1 class="text-center">Contact</h1>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-wrapper">
+                        <form class="registration-form">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Name*</label>
+                                    <input type="text" name="" placeholder="Full Name" autofocus required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Email*</label>
+                                    <input type="email" name="" placeholder="Email Address" autofocus required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Subject*</label>
+                                    <input type="text" name="" placeholder="Subject" autofocus required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Message*</label>
+                                    <textarea type="text" autofocus required></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="submit-btn btn btn-primary text-center">Submit</button>
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="office-contact text-center">Office Address</h3>
+                    <div class="address">
+                        <i class="fa fa-map-marker fa-2x text-center"></i>
+                        <p>Bureau of Public service reforms, Federal Secretariat complex, New extension, PLOT 04, Phase II Block D, 3rd Floor, Shehu Shagari way, P.M.B. 625 GARKI, ABUjA. Nigeria</p>
+                    </div>
+                    <div class="message">
+                        <i class="fa fa-envelope fa-2x text-center"></i>
+                        <p class="text-center">enquiries@bpsr.gov.ng</p>
+                    </div>
+                    <div class="phone">
+                        <i class="fa fa-phone fa-2x text-center"></i>
+                        <p class="text-center">(+234)7080051170, (+234)8033115264</p>
+                    </div>
+                </div>
+        </div>
+        </div>
+        
+    </main>
 
-    </nav>
+    <footer>
+        <cite>Developed with &#9829; by Okoye Chidi B. <span id="footer-date" class="fa fa-copyright"></span>2017<cite>
+    </footer>
 
-     <div class="dropdown-menu">
-      <ul class="mobile-menu no-bullet">
-        <li><a class="transition-link" href="/project-list.html">Projects</a></li>
-        <li><a class="transition-link" href="/blog.html">Blog</a></li>
-        <li><a  href="https://medium.com/@benadam11" target ="_blank"><i class="fa fa-medium"></i> - Medium</a></li>
-        <li><a  href="https://twitter.com/benadam11" target ="_blank"><i class="fa fa-twitter"></i> - Twitter </a></li>
-        <li><a  href="https://dribbble.com/benadam11" target ="_blank"><i class="fa fa-dribbble"></i> - Dribbble </a></li>
-        <li><a  href="https://github.com/benadam11" target ="_blank"> <i class="fa fa-github"></i> - Github</a></li>
-      </ul>
-    </div>
-  </div>
-</header>
-<!-- End Header -->
-<div class="content">
-  <section class="hero inner-container">
-	<h1 align="center">Contact</h1><hr>
- </section>
-
- 
- <div>
-   <form class="ctc_form">
-   <p>  Name *
-  <input type="text" class="form-control" placeholder="Name" required></p>
-  <p>  Email *
-  <input type="text" class="form-control" placeholder="Email Address" required></p>
-
-  <p>  Subject *
-  <input type="text" class="form-control" placeholder="Subject" rows="2" required></p>
-
-  <p> Message *
-    <textarea class="form-control" rows="7" placeholder="Message" required></textarea></p>
-
-    <input class="btn btn-default" type="submit" value="Submit">
-   </form>
-</div>
-
-
-<div class="ctc_details">
-  <h2> OFFICE ADDRESS</h2>
-  <p>BUREAU OF PUBLIC SERVICE REFORMS,<br>
-  FEDERAL SECRETARIAT COMPLEX,<br>
-  NEW EXTENSION, PLOT 04, PHASE II,<br>
-  BLOCK D, 3RD FLOOR, SHEHU SHAGARI WAY,<br>
- P.M.B. 625 GARKI, ABUJA, NIGERIA.</p>
- <p> Email : enquiries@bpsr.gov.ng </p>
- <p> Contact Numbers : (+234)7080051170, (+234)8033115264</p>
-
-</div>
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-</div>
-
-<!--Footer Partial-->
-
-<footer class="border">
-  <p>Developed with &#9829; by Okoye Chidi B. <span id="footer-date"></span></p>
-</footer>
-
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

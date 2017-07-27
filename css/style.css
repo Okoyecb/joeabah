@@ -857,17 +857,57 @@ footer, .cta-section {
       float: right;
       margin-top: -200px;
     }
-
+    .m-b-20{margin-bottom: 20px;}
+    .gallery-title{
+      text-align: center !important;
+    }
+    label{
+      display: block !important;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    input{
+      width: 400px;
+      height: 40px;
+      border-radius: 4px;
+      margin-bottom: 30px;
+      padding-left:8px;
+      border-width: 0px;
+      border:1px solid silver;
+    }
+    textarea{
+        width:400px;
+        height: 150px;
+    }
+    .address i, .message i, .phone i{
+        display: block;
+    }
+    button.submit-btn{
+        background: #fff;
+        color: #204d74;
+    }
     .ctc_form{
       width: 40%;
       margin-left: 60px;}
       @media only screen and (max-width: 480px) {
-    table {
-        width:95%;
-    }
-    input[type=text], textarea {
-        width:75%;
-    }
+        table {
+            width:95%;
+        }
+        input[type=text], textarea {
+            width:75%;
+        }
+        input[type=email], textarea {
+            width:75%;
+        }
+        h3.office-contact{
+          margin-top:20px;
+        }
+        button.submit-btn{
+          margin-top:10px;
+        }
+        .address p{
+          padding:0 10px;
+        }
 }
 
 
