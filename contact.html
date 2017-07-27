@@ -14,40 +14,38 @@
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <!-- custom -->
     <link rel="stylesheet" href="css/style.css">
-
+    <style type="text/css">
+        nav.navbar-default{
+            background: #fff;
+        }
+    </style>
 </head>
 <body>
     <header>
-      <div class="outer-container">
-         <nav>
-            <a class="site-logo transition-link" href="index.html">
-                <img src="logo.png" style="width:50px; height:50px; display: inline">
-            </a>
-            <ul class="nav-right">
-                <li class="list-item"><a class="transition-link" href="index.html">Home</a></li>
-                <li class="list-item"><a class="transition-link" href="blog.html">Blog</a></li>
-                <li class="list-item" id="social-click"><a  href="gallery.html">Gallery</a></li>
-                <li class="list-item"><a class="transition-link" href="contact.html">Contact</a></li>
-            </ul>
-            <div class="mobile-nav">
-                <a id="navigation-target" class="navigation-target"></a>
-                <span class="navigation-toggle">
-                  <span class="navigation-toggle-icon"></span>
-                  <span class="navigation-toggle-label">Menu</span>
-                </span> 
-            </div>
-         </nav>
-        <div class="dropdown-menu">
-              <ul class="mobile-menu no-bullet">
-                  <li><a class="transition-link" href="/project-list.html">Projects</a></li>
-                  <li><a class="transition-link" href="/blog.html">Blog</a></li>
-                  <li><a  href="https://medium.com/@benadam11" target ="_blank"><i class="fa fa-medium"></i> - Medium</a></li>
-                  <li><a  href="https://twitter.com/benadam11" target ="_blank"><i class="fa fa-twitter"></i> - Twitter </a></li>
-                  <li><a  href="https://dribbble.com/benadam11" target ="_blank"><i class="fa fa-dribbble"></i> - Dribbble </a></li>
-                  <li><a  href="https://github.com/benadam11" target ="_blank"> <i class="fa fa-github"></i> - Github</a></li>
-              </ul>
+        <div class="outer-container">
+           <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span> 
+                      </button>
+                      <a class="navbar-brand" href="index.html">
+                          <img src="logo.png" style="width:50px; height:50px; display: inline" alt="">
+                      </a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li class=""><a href="index.html">Home</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="gallery.html">Gallery</a></li> 
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+            </nav>
         </div>
-      </div>
     </header>
     <!-- End Header -->
     <main>
